@@ -1,3 +1,11 @@
+# React note taking app
+Simple note taking app with folders
+##React hooks
+-useEffect
+-useState
+## built with bootstrap
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
