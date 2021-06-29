@@ -1,7 +1,7 @@
 # React note taking app
 Simple note taking app with folders
-##React hooks .\
--useEffect.\
+## React hooks 
+-useEffect\
 -useState
 ## Built with bootstrap
 
