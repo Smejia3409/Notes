@@ -1,0 +1,12 @@
+.platform {
+  position: absolute;
+  width: 80%;
+  height: 100vh;
+  top: 10%;
+  left: 16%;
+}
+
+.platformHeader {
+  position: relative;
+  width: 100%;
+}

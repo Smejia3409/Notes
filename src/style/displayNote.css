@@ -1,0 +1,16 @@
+.noteLabel {
+  position: relative;
+  width: 100%;
+  border: 1px solid blue;
+}
+
+.dnTxtArea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+}
+.ta {
+  resize: none;
+  width: 100%;
+  border: none;
+}

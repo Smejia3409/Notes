@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Folders from "./Folders";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./style/app.css";
+
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app ">
+      <div>
+        <h2 className="text-center text-primary shadow p-3 bg-white rounded">
+          My Notes
+        </h2>
+      </div>
+      <div className="border">
+        <Folders />
+      </div>
     </div>
   );
 }
